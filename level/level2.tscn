@@ -309,4 +309,5 @@ scale = Vector2(3, 3)
 position = Vector2(587, 70)
 
 [node name="killzone" parent="." unique_id=1612089244 instance=ExtResource("6_axulw")]
-position = Vector2(340.33334, 384.33334)
+position = Vector2(320.33334, 386.33334)
+scale = Vector2(1.905, 1.905)
