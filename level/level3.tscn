@@ -7,6 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://hvgbp0ugu5kq" path="res://object(scene)/next level.tscn" id="5_gkvoo"]
 [ext_resource type="PackedScene" uid="uid://b0u4km45oltt8" path="res://object(scene)/key.tscn" id="6_puws0"]
 [ext_resource type="PackedScene" uid="uid://cxmtx0c7uapss" path="res://object(scene)/killzone.tscn" id="7_cb42k"]
+[ext_resource type="PackedScene" uid="uid://baw3c47ngqjbx" path="res://object(scene)/appear platform.tscn" id="8_8qtck"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ngmhx"]
 texture = ExtResource("2_puws0")
@@ -316,3 +317,8 @@ scale = Vector2(2.185, 2.185)
 [node name="killzone" parent="." unique_id=1612089244 instance=ExtResource("7_cb42k")]
 position = Vector2(319.66666, 385.3333)
 scale = Vector2(1.815, 1.815)
+
+[node name="appearplat" parent="." unique_id=798060809 instance=ExtResource("8_8qtck")]
+visible = false
+position = Vector2(794.66675, 326)
+scale = Vector2(0.88, 0.88)
