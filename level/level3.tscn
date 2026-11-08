@@ -3,10 +3,10 @@
 [ext_resource type="Texture2D" uid="uid://loququo7l3ky" path="res://assests/bg/mockup__r1352292551.png" id="1_w1a6n"]
 [ext_resource type="Texture2D" uid="uid://bradwoieendji" path="res://assests/tile/desert-ruins.png" id="2_puws0"]
 [ext_resource type="Texture2D" uid="uid://b1yj2fd0gcbij" path="res://assests/tile/tilesetgrass.png" id="3_cb42k"]
-[ext_resource type="PackedScene" uid="uid://cqrpqyppd3ul7" path="res://scene/player.tscn" id="4_8qtck"]
-[ext_resource type="PackedScene" uid="uid://hvgbp0ugu5kq" path="res://scene/next level.tscn" id="5_gkvoo"]
+[ext_resource type="PackedScene" uid="uid://cqrpqyppd3ul7" path="res://object(scene)/player.tscn" id="4_8qtck"]
+[ext_resource type="PackedScene" uid="uid://hvgbp0ugu5kq" path="res://object(scene)/next level.tscn" id="5_gkvoo"]
 [ext_resource type="PackedScene" uid="uid://b0u4km45oltt8" path="res://object(scene)/key.tscn" id="6_puws0"]
-[ext_resource type="PackedScene" uid="uid://cxmtx0c7uapss" path="res://scene/killzone.tscn" id="7_cb42k"]
+[ext_resource type="PackedScene" uid="uid://cxmtx0c7uapss" path="res://object(scene)/killzone.tscn" id="7_cb42k"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ngmhx"]
 texture = ExtResource("2_puws0")

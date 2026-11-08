@@ -3,9 +3,9 @@
 [ext_resource type="Texture2D" uid="uid://loququo7l3ky" path="res://assests/bg/mockup__r1352292551.png" id="1_kprdm"]
 [ext_resource type="Texture2D" uid="uid://b1yj2fd0gcbij" path="res://assests/tile/tilesetgrass.png" id="2_1cjr2"]
 [ext_resource type="Texture2D" uid="uid://bradwoieendji" path="res://assests/tile/desert-ruins.png" id="2_8ohka"]
-[ext_resource type="PackedScene" uid="uid://cqrpqyppd3ul7" path="res://scene/player.tscn" id="4_s2ai8"]
+[ext_resource type="PackedScene" uid="uid://cqrpqyppd3ul7" path="res://object(scene)/player.tscn" id="4_s2ai8"]
 [ext_resource type="Texture2D" uid="uid://cqhdrwdlgrfrb" path="res://assests/obj/spacebar.png" id="5_a1r6t"]
-[ext_resource type="PackedScene" uid="uid://hvgbp0ugu5kq" path="res://scene/next level.tscn" id="6_k6pdc"]
+[ext_resource type="PackedScene" uid="uid://hvgbp0ugu5kq" path="res://object(scene)/next level.tscn" id="6_k6pdc"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_afkyo"]
 texture = ExtResource("2_8ohka")
