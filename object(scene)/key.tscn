@@ -1,11 +1,13 @@
 [gd_scene format=3 uid="uid://b0u4km45oltt8"]
 
+[ext_resource type="Script" uid="uid://rpr7iosb4sqj" path="res://script/key.gd" id="1_hodtx"]
 [ext_resource type="Texture2D" uid="uid://bws02gbkk2e84" path="res://assests/obj/key.png" id="1_p5y1l"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_k23kw"]
 size = Vector2(26, 24)
 
 [node name="key" type="Area2D" unique_id=1854565320]
+script = ExtResource("1_hodtx")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1586678049]
 texture_filter = 1
@@ -13,3 +15,9 @@ texture = ExtResource("1_p5y1l")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=701821441]
 shape = SubResource("RectangleShape2D_k23kw")
+
+[node name="Timer" type="Timer" parent="." unique_id=1328104526]
+wait_time = 0.2
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
