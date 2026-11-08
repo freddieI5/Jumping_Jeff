@@ -115,7 +115,7 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_hslyk"]
-size = Vector2(6, 17)
+size = Vector2(10, 17)
 
 [node name="player" type="CharacterBody2D" unique_id=2077548633 groups=["player"]]
 script = ExtResource("1_ct4mp")
