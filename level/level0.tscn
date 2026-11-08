@@ -313,3 +313,12 @@ scale = Vector2(3, 3)
 
 [node name="Area2D" parent="." unique_id=823911210 instance=ExtResource("6_k6pdc")]
 position = Vector2(523.3333, 278.6667)
+
+[node name="RichTextLabel" type="RichTextLabel" parent="." unique_id=1041680881]
+offset_left = 159.66669
+offset_top = 0.33333337
+offset_right = 399.31232
+offset_bottom = 23.66667
+scale = Vector2(1.505, 1.505)
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+text = "Press A or D to moving around"

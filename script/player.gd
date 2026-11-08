@@ -35,3 +35,7 @@ func _physics_process(delta: float) -> void:
 		animated_sprite_2d.flip_h = false
 	elif direction == -1.0:
 		animated_sprite_2d.flip_h = true
+
+#respawnd player
+func respawn():
+	self.gobal_position = Vector2 (10.667,128.0)
