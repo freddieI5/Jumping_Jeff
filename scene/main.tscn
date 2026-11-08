@@ -2,6 +2,21 @@
 
 [ext_resource type="PackedScene" uid="uid://dsjye5fyrpymh" path="res://level/level0.tscn" id="1_itxqv"]
 
+[sub_resource type="GDScript" id="GDScript_itxqv"]
+script/source = "extends Node2D
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	pass
+"
+
 [node name="main" type="Node2D" unique_id=1767396803]
+script = SubResource("GDScript_itxqv")
 
 [node name="level1" parent="." unique_id=167857010 instance=ExtResource("1_itxqv")]
