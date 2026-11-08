@@ -310,7 +310,7 @@ position = Vector2(303, 16.999985)
 scale = Vector2(0.175, 0.175)
 texture = ExtResource("5_a1r6t")
 
-[node name="Area2D" parent="." unique_id=823911210 instance=ExtResource("6_k6pdc")]
+[node name="next level" parent="." unique_id=823911210 instance=ExtResource("6_k6pdc")]
 position = Vector2(604, 139.66667)
 
 [node name="RichTextLabel" type="RichTextLabel" parent="." unique_id=418615109]

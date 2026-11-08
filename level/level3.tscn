@@ -306,7 +306,7 @@ script = SubResource("GDScript_lh1ov")
 position = Vector2(16.666668, 15.666664)
 scale = Vector2(3, 3)
 
-[node name="Area2D" parent="." unique_id=823911210 instance=ExtResource("5_gkvoo")]
+[node name="next level" parent="." unique_id=823911210 instance=ExtResource("5_gkvoo")]
 position = Vector2(107.333336, 89)
 
 [node name="key" parent="." unique_id=1854565320 instance=ExtResource("6_puws0")]
