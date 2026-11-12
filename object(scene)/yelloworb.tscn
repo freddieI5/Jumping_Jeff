@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://b7eqqomci38jb"]
+
+[ext_resource type="Script" uid="uid://d0bh6hstywvpy" path="res://script/jumpingorb.gd" id="1_fcue1"]
+[ext_resource type="Texture2D" uid="uid://dvps2bphoi5np" path="res://assests/obj/next level.png" id="2_o271h"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_k23kw"]
+size = Vector2(48, 48)
+
+[node name="yelloworb" type="Area2D" unique_id=1150699572 groups=["yelloworb"]]
+script = ExtResource("1_fcue1")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1016436423]
+modulate = Color(1, 1, 0, 1)
+texture_filter = 1
+texture = ExtResource("2_o271h")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=918532412]
+shape = SubResource("RectangleShape2D_k23kw")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]
