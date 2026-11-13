@@ -1,0 +1,349 @@
+[gd_scene format=4 uid="uid://efvcag4aj2b5"]
+
+[ext_resource type="Texture2D" uid="uid://loququo7l3ky" path="res://assests/bg/mockup__r1352292551.png" id="1_wvnm4"]
+[ext_resource type="Texture2D" uid="uid://bradwoieendji" path="res://assests/tile/desert-ruins.png" id="2_b35ci"]
+[ext_resource type="Texture2D" uid="uid://b1yj2fd0gcbij" path="res://assests/tile/tilesetgrass.png" id="3_5mpv8"]
+[ext_resource type="PackedScene" uid="uid://cqrpqyppd3ul7" path="res://object(scene)/player.tscn" id="4_ay7js"]
+[ext_resource type="PackedScene" uid="uid://cxmtx0c7uapss" path="res://object(scene)/killzone.tscn" id="5_5mpv8"]
+[ext_resource type="PackedScene" uid="uid://b7eqqomci38jb" path="res://object(scene)/yelloworb.tscn" id="6_ay7js"]
+[ext_resource type="PackedScene" uid="uid://hvgbp0ugu5kq" path="res://object(scene)/next level.tscn" id="7_ay7js"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4f1rj"]
+texture = ExtResource("2_b35ci")
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+7:1/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+4:2/0 = 0
+5:2/0 = 0
+6:2/0 = 0
+7:2/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+4:3/0 = 0
+5:3/0 = 0
+6:3/0 = 0
+7:3/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+3:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+4:4/0 = 0
+5:4/0 = 0
+6:4/0 = 0
+7:4/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+5:5/0 = 0
+6:5/0 = 0
+7:5/0 = 0
+1:6/0 = 0
+2:6/0 = 0
+3:6/0 = 0
+4:6/0 = 0
+5:6/0 = 0
+6:6/0 = 0
+7:6/0 = 0
+1:8/0 = 0
+2:8/0 = 0
+3:8/0 = 0
+4:8/0 = 0
+5:8/0 = 0
+6:8/0 = 0
+7:8/0 = 0
+1:9/0 = 0
+2:9/0 = 0
+2:9/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+3:9/0 = 0
+4:9/0 = 0
+5:9/0 = 0
+7:9/0 = 0
+1:10/0 = 0
+2:10/0 = 0
+3:10/0 = 0
+4:10/0 = 0
+5:10/0 = 0
+6:10/0 = 0
+7:10/0 = 0
+1:11/0 = 0
+2:11/0 = 0
+3:11/0 = 0
+4:11/0 = 0
+5:11/0 = 0
+1:12/0 = 0
+2:12/0 = 0
+3:12/0 = 0
+4:12/0 = 0
+5:12/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lbydj"]
+texture = ExtResource("3_5mpv8")
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+1:0/0 = 0
+1:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+2:0/0 = 0
+2:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+3:0/0 = 0
+3:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+4:0/0 = 0
+4:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+5:0/0 = 0
+5:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+6:0/0 = 0
+7:0/0 = 0
+8:0/0 = 0
+9:0/0 = 0
+10:0/0 = 0
+11:0/0 = 0
+12:0/0 = 0
+13:0/0 = 0
+14:0/0 = 0
+15:0/0 = 0
+0:1/0 = 0
+0:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+1:1/0 = 0
+1:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+2:1/0 = 0
+2:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+3:1/0 = 0
+3:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+4:1/0 = 0
+4:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+5:1/0 = 0
+5:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+6:1/0 = 0
+7:1/0 = 0
+8:1/0 = 0
+9:1/0 = 0
+10:1/0 = 0
+11:1/0 = 0
+12:1/0 = 0
+13:1/0 = 0
+14:1/0 = 0
+15:1/0 = 0
+0:2/0 = 0
+0:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+1:2/0 = 0
+1:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+2:2/0 = 0
+2:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+3:2/0 = 0
+3:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+4:2/0 = 0
+4:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+5:2/0 = 0
+5:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+6:2/0 = 0
+7:2/0 = 0
+8:2/0 = 0
+9:2/0 = 0
+10:2/0 = 0
+11:2/0 = 0
+12:2/0 = 0
+13:2/0 = 0
+14:2/0 = 0
+15:2/0 = 0
+0:3/0 = 0
+0:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+1:3/0 = 0
+1:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+2:3/0 = 0
+2:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+3:3/0 = 0
+3:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+4:3/0 = 0
+4:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+5:3/0 = 0
+5:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+6:3/0 = 0
+7:3/0 = 0
+8:3/0 = 0
+9:3/0 = 0
+10:3/0 = 0
+11:3/0 = 0
+12:3/0 = 0
+13:3/0 = 0
+14:3/0 = 0
+15:3/0 = 0
+0:4/0 = 0
+0:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+1:4/0 = 0
+1:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+2:4/0 = 0
+2:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+3:4/0 = 0
+3:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+4:4/0 = 0
+4:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+5:4/0 = 0
+5:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+6:4/0 = 0
+7:4/0 = 0
+8:4/0 = 0
+9:4/0 = 0
+10:4/0 = 0
+11:4/0 = 0
+12:4/0 = 0
+13:4/0 = 0
+14:4/0 = 0
+15:4/0 = 0
+16:4/0 = 0
+17:4/0 = 0
+18:4/0 = 0
+19:4/0 = 0
+0:5/0 = 0
+0:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+1:5/0 = 0
+1:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+2:5/0 = 0
+2:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+3:5/0 = 0
+3:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+4:5/0 = 0
+4:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+5:5/0 = 0
+5:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+6:5/0 = 0
+7:5/0 = 0
+8:5/0 = 0
+9:5/0 = 0
+10:5/0 = 0
+11:5/0 = 0
+12:5/0 = 0
+13:5/0 = 0
+14:5/0 = 0
+15:5/0 = 0
+16:5/0 = 0
+17:5/0 = 0
+18:5/0 = 0
+19:5/0 = 0
+0:6/0 = 0
+1:6/0 = 0
+2:6/0 = 0
+3:6/0 = 0
+4:6/0 = 0
+5:6/0 = 0
+6:6/0 = 0
+7:6/0 = 0
+8:6/0 = 0
+9:6/0 = 0
+10:6/0 = 0
+11:6/0 = 0
+12:6/0 = 0
+13:6/0 = 0
+14:6/0 = 0
+15:6/0 = 0
+16:6/0 = 0
+17:6/0 = 0
+18:6/0 = 0
+19:6/0 = 0
+0:7/0 = 0
+1:7/0 = 0
+2:7/0 = 0
+3:7/0 = 0
+4:7/0 = 0
+5:7/0 = 0
+6:7/0 = 0
+7:7/0 = 0
+8:7/0 = 0
+9:7/0 = 0
+10:7/0 = 0
+11:7/0 = 0
+12:7/0 = 0
+13:7/0 = 0
+14:7/0 = 0
+15:7/0 = 0
+16:7/0 = 0
+17:7/0 = 0
+18:7/0 = 0
+19:7/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_nfnjx"]
+physics_layer_0/collision_layer = 1
+sources/3 = SubResource("TileSetAtlasSource_lbydj")
+sources/0 = SubResource("TileSetAtlasSource_4f1rj")
+
+[sub_resource type="GDScript" id="GDScript_wum6e"]
+script/source = "extends TileMapLayer
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	pass
+"
+
+[node name="level 5" type="Node2D" unique_id=1526099632]
+scale = Vector2(3, 3)
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=795495872]
+texture_filter = 1
+offset_right = 638.6667
+offset_bottom = 400.0
+texture = ExtResource("1_wvnm4")
+
+[node name="TileMapLayer" type="TileMapLayer" parent="TextureRect" unique_id=26123810]
+texture_filter = 1
+scale = Vector2(1.7400001, 1.7400001)
+tile_map_data = PackedByteArray("AAAXAAsAAwACAAEAAAD//wAAAwACAAEAAAD//wEAAwACAAEAAAD//wIAAwACAAEAAAD//wMAAwACAAEAAAD//wQAAwACAAEAAAD//wUAAwACAAEAAAD//wYAAwACAAEAAAD//wcAAwACAAEAAAD//wgAAwACAAEAAAD//wkAAwACAAEAAAD//woAAwACAAEAAAD//wsAAwACAAEAAAAXAAAAAwACAAEAAAAXAAEAAwACAAEAAAAXAAIAAwACAAEAAAAXAAMAAwACAAEAAAAXAAQAAwACAAEAAAAXAAUAAwACAAEAAAAXAAYAAwACAAEAAAAXAAcAAwACAAEAAAAXAAgAAwACAAEAAAAXAAkAAwACAAEAAAAXAAoAAwACAAEAAAAWAAcAAAADAAQAAAAVAAcAAAADAAQAAAAKAAMAAAADAAQAAAALAAMAAAADAAQAAAAMAAMAAAADAAQAAAAMAAQAAAADAAQAAAAMAAUAAAADAAQAAAAMAAYAAAADAAQAAAAMAAcAAAADAAQAAAAMAAgAAAADAAQAAAAMAAkAAAADAAQAAAAMAAoAAAADAAQAAAAMAAsAAAADAAQAAAAMAAwAAAADAAQAAAAMAA0AAAADAAQAAAAJAAMAAAADAAQAAAAJAAQAAAADAAQAAAAJAAUAAAADAAQAAAAJAAYAAAADAAQAAAAJAAcAAAADAAQAAAAJAAgAAAADAAQAAAAJAAkAAAADAAQAAAAJAAoAAAACAAQAAAAJAAsAAAACAAQAAAAJAAwAAAADAAQAAAAJAA0AAAADAAQAAAAKAAQAAAAFAAQAAAALAAQAAAAFAAQAAAALAAUAAAAFAAQAAAAKAAUAAAAFAAQAAAAKAAYAAAAFAAQAAAALAAYAAAAFAAQAAAAKAAcAAAAFAAUAAAALAAcAAAAFAAUAAAALAAgAAAAFAAYAAAAKAAgAAAAFAAUAAAAKAAkAAAAFAAYAAAALAAkAAAAHAAYAAAAKAAoAAAAGAAYAAAALAAoAAAACAAIAAAALAAsAAAACAAIAAAALAAwAAAACAAkAAAALAA0AAAACAAIAAAAKAAsAAAACAAIAAAAKAAwAAAACAAkAAAAKAA0AAAACAAIAAAAIAAwAAAADAAQAAAAIAAMAAAADAAQAAAAHAAMAAAADAAQAAAAGAAMAAAADAAQAAAAFAAMAAAADAAQAAAAEAAMAAAADAAQAAAADAAMAAAADAAQAAAACAAMAAAADAAQAAAABAAMAAAADAAQAAAA=")
+tile_set = SubResource("TileSet_nfnjx")
+script = SubResource("GDScript_wum6e")
+
+[node name="player" parent="TextureRect" unique_id=2077548633 instance=ExtResource("4_ay7js")]
+position = Vector2(618, 152.66667)
+scale = Vector2(3, 3)
+
+[node name="RichTextLabel" type="RichTextLabel" parent="TextureRect" unique_id=1903809794]
+layout_mode = 0
+offset_left = 386.3333
+offset_top = 267.0
+offset_right = 537.88885
+offset_bottom = 315.6667
+scale = Vector2(1.5, 1.5)
+text = "some time you can walk through wall"
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="TextureRect" unique_id=2137808552]
+layout_mode = 0
+offset_left = 437.0
+offset_top = 207.33331
+offset_right = 527.0
+offset_bottom = 233.66664
+scale = Vector2(0.765, 0.765)
+text = "Tigh timing"
+
+[node name="RichTextLabel3" type="RichTextLabel" parent="TextureRect" unique_id=1215419410]
+layout_mode = 0
+offset_left = 54.00006
+offset_top = 326.66663
+offset_right = 144.00009
+offset_bottom = 352.99994
+scale = Vector2(0.765, 0.765)
+text = "Tigh timing"
+
+[node name="killzone" parent="." unique_id=1612089244 instance=ExtResource("5_5mpv8")]
+position = Vector2(340, 418.6667)
+scale = Vector2(3.1581001, 3.1581001)
+
+[node name="yelloworb" parent="." unique_id=1150699572 instance=ExtResource("6_ay7js")]
+position = Vector2(409.66666, 218)
+
+[node name="yelloworb2" parent="." unique_id=1308706273 instance=ExtResource("6_ay7js")]
+position = Vector2(26.666664, 335.66666)
+
+[node name="next level" parent="." unique_id=823911210 instance=ExtResource("7_ay7js")]
+modulate = Color(1, 1, 1, 0)
+position = Vector2(304, 300.33334)
